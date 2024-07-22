@@ -16,7 +16,7 @@ project "GLFW"
 		"src/monitor.c",
 		"src/vulkan.c",
 		"src/window.c",
-    		"src/*.c
+    		"src/*.c"
 	}
 
 	filter "system:windows"
