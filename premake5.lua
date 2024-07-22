@@ -16,11 +16,11 @@ project "GLFW"
 		"src/monitor.c",
 		"src/vulkan.c",
 		"src/window.c",
-    		"src/*.c
+    	"src/*.c"
 	}
 
 	filter "system:windows"
-    buildoptions {"std=c11", "-lgdi32" }
+    buildoptions {"-std=c11", "-lgdi32" }
 		systemversion "latest"
 		staticruntime "On"
 
